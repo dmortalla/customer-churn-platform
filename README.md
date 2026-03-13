@@ -93,7 +93,7 @@ L --> M[REST Prediction Endpoint]
 
 M --> N[Swagger UI]
 ```
-
+---
 
 # Tech Stack
 
