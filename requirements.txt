@@ -7,3 +7,5 @@ xgboost
 mlflow
 joblib
 pyarrow
+pytest
+pyyaml
