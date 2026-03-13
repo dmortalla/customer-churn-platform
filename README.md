@@ -101,9 +101,23 @@ The API can be launched locally or via Docker using a single command.
 
 # Use Cases
 
-- Customer churn prediction for telecom companies
-- ML pipeline architecture demonstration
-- Example of deployable ML inference service
+This system demonstrates how machine learning can be deployed in real-world customer analytics environments.
+
+**Customer Retention Analytics**
+
+Telecom providers can identify customers at high risk of churn and target them with retention campaigns.
+
+**Operational ML Pipeline Example**
+
+Demonstrates how to structure a modular machine learning system including ingestion, feature engineering, model training, and deployment.
+
+**Production Inference Service**
+
+Shows how trained ML models can be deployed as REST APIs for integration with business applications.
+
+**ML Engineering Portfolio Project**
+
+Provides a complete example of a production-style ML platform including experiment tracking, containerization, and CI automation.
 
 ---
 
