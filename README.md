@@ -9,7 +9,7 @@
 # Customer Churn Prediction Platform
 
 Production-style machine learning platform for predicting telecom customer churn.
-This project demonstrates how to build a  **complete ML system** , not just a model — including data pipelines, experiment tracking, API inference, and containerized deployment.
+This project demonstrates how to build a  **complete ML system** , not just a model, by implementing end-to-end ML engineering workflows including data pipelines, experiment tracking with MLflow, FastAPI inference services, Docker containerization, and CI testing with GitHub Actions.
 
 ---
 
