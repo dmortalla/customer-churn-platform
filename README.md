@@ -60,6 +60,45 @@ The project emphasizes **ML engineering practices** such as modular architecture
 
 ---
 
+# Quick Demo
+
+Example prediction using the FastAPI inference service.
+
+**API Request**
+
+POST `/predict`
+
+```json
+{
+  "features": {
+    "SeniorCitizen": 0,
+    "tenure": 1,
+    "MonthlyCharges": 29.85,
+    "TotalCharges": 29.85
+  }
+}
+```
+
+**API Response**
+
+```json
+{
+  "prediction": 1,
+  "prediction_label": "Yes",
+  "churn_probability": 0.61
+}
+```
+
+Interactive API documentation is available via Swagger:
+
+```
+http://localhost:8000/docs
+```
+
+The API can be launched locally or via Docker using a single command.
+
+---
+
 # Use Cases
 
 - Customer churn prediction for telecom companies
