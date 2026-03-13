@@ -1,0 +1,13 @@
+random_state: 42
+
+target:
+  name: Churn
+  positive_class: "Yes"
+  negative_class: "No"
+
+split:
+  test_size: 0.2
+
+models:
+  baseline_model: logistic_regression
+  advanced_model: xgboost
