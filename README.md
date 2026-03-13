@@ -4,7 +4,7 @@
 ![MLflow](https://img.shields.io/badge/MLflow-Experiment%20Tracking-orange)
 ![Tests](https://img.shields.io/badge/tests-pytest-success)
 
-![CI](https://github.com/dmortalla/customer-churn-platform/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/dmortalla/customer-churn-platform/actions/workflows/ci.yml/badge.svg?branch=main)
 
 # Customer Churn Prediction Platform
 
