@@ -28,6 +28,8 @@ def get_paths(config_path: str = "configs/paths.yaml") -> Dict[str, Path]:
         "feature_data": Path(config["files"]["feature_data"]),
         "ingestion_log": Path(config["files"]["ingestion_log"]),
         "feature_log": Path(config["files"]["feature_log"]),
+        "training_metrics": Path(config["files"]["training_metrics"]),
+        "baseline_model": Path(config["files"]["baseline_model"]),
         "models_dir": Path(config["artifacts"]["models_dir"]),
         "reports_dir": Path(config["artifacts"]["reports_dir"]),
         "figures_dir": Path(config["artifacts"]["figures_dir"]),
@@ -56,3 +58,5 @@ def ensure_directories_exist(paths: Dict[str, Path]) -> None:
 
     paths["ingestion_log"].parent.mkdir(parents=True, exist_ok=True)
     paths["feature_log"].parent.mkdir(parents=True, exist_ok=True)
+    paths["training_metrics"].parent.mkdir(parents=True, exist_ok=True)
+    paths["baseline_model"].parent.mkdir(parents=True, exist_ok=True)

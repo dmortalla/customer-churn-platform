@@ -12,6 +12,8 @@ files:
   feature_data: data/interim/churn_features.parquet
   ingestion_log: artifacts/reports/ingestion_summary.json
   feature_log: artifacts/reports/feature_summary.json
+  training_metrics: artifacts/reports/training_metrics.json
+  baseline_model: artifacts/models/baseline_model.joblib
 
 artifacts:
   models_dir: artifacts/models
