@@ -30,39 +30,41 @@ The project emphasizes **ML engineering practices** such as modular architecture
 
 ---
 
-# Architecture
+# Key Features
 
-```
-           Raw Dataset
-                │
-                ▼
-        Ingestion Pipeline
-                │
-                ▼
-       Feature Engineering
-                │
-                ▼
-        Feature Dataset
-                │
-                ▼
-      Model Training Pipeline
-                │
-                ▼
-      Hyperparameter Tuning
-           (MLflow)
-                │
-                ▼
-          Saved Model
-                │
-                ▼
-           FastAPI API
-                │
-                ▼
-        Docker Container
-                │
-                ▼
-           REST Endpoint
-```
+**End-to-End ML Pipeline**
+
+* Modular data ingestion and feature engineering pipelines
+* Structured project architecture for maintainability
+
+**Experiment Tracking**
+
+* Hyperparameter tuning with XGBoost
+* MLflow experiment tracking for reproducibility
+
+**Production-Ready Inference API**
+
+* FastAPI REST service for churn prediction
+* Interactive Swagger documentation
+
+**Containerized Deployment**
+
+* Dockerized service for consistent runtime environments
+* One-command deployment with `docker compose`
+
+**Engineering Best Practices**
+
+* Automated tests with `pytest`
+* Continuous Integration via GitHub Actions
+* Modular codebase with clear separation of concerns
+
+---
+
+# Use Cases
+
+- Customer churn prediction for telecom companies
+- ML pipeline architecture demonstration
+- Example of deployable ML inference service
 
 ---
 
